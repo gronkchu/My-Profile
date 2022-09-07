@@ -1,0 +1,263 @@
+body {
+    background-color: 	#141414;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+#top-banner {
+    background-image: linear-gradient(rgb(6, 6, 6), #141414);
+    color: #141414;
+    height: 80px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#top-banner2 {
+    background-image: linear-gradient(rgb(6, 6, 6), #141414);
+    color: #141414;
+    height: 80px;
+    overflow: hidden;
+}
+
+#my-logo {
+    position: absolute;
+    top: 10px;
+    left: 80px  
+}
+
+#my-insta {
+    position: absolute;
+    top: 17px;
+    right: 100px;
+}
+
+#my-discord {
+    position: absolute;
+    top: 17px;
+    right: 180px;
+}
+
+#my-facebook {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+#logout {
+    position: absolute;
+    top: 13px;
+    right: 250px;
+}
+
+#main-header {
+    text-align: center;
+    margin-top: 165px;
+}
+
+#main-header h1 {
+    font-size: 69px;
+    color: white;
+    font-weight:500;
+}
+
+#showcase {
+    margin-top: 0px;
+    background-image: url(https://media1.giphy.com/media/Xz8C5xJKY0dIkrCSg8/giphy.gif?cid=790b7611dfade0b564bf2e28d4ec93d54549ef2e38fcae06&rid=giphy.gif&ct=g);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 800px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+#showcase h1 {
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    color: white;
+    font-size: 30px; 
+}
+
+.box-1 h1 {
+    border-radius: 5px;
+    border: 2px rgb(95,93, 92) solid;
+    background-color: rgb(95,93, 92);
+    opacity: 0.5;
+    padding: 10px 25px;
+    z-index: 1;
+}
+
+.box-1 h1:hover {
+    opacity: 1;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.profile {
+    position: absolute;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    left: 44%;
+    padding-top: 18px;
+    
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 5px;
+    border: 3px white;
+}
+
+.caption {
+    padding-top: 10px;
+    /* color: grey; */
+    font-size: 25px;
+    display: block;
+}
+
+.image:hover {
+    border: 4px white solid;
+}
+
+.caption:hover {
+    color: white;
+}
+
+#manage-profiles {
+    border: 2px rgb(127, 127, 127) solid;
+    margin-left: 40%;
+    width: 350px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+#manage-profiles:hover {
+    border: 1px white solid;
+    color: white;
+}
+
+#block-1 {
+    float: left;
+    width: 23%;
+    height: 250px;
+
+    margin-left: 1%;
+    margin-right: 1%;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    overflow: hidden;
+}
+
+#block-2 {
+    float: left;
+    width: 23%;
+    height: 250px;
+
+    margin-left: 1%;
+    margin-right: 1%;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    background-color: rgb(89, 38, 94);
+
+    overflow: hidden;
+}
+
+#block-3 {
+    float: left;
+    width: 23%;
+    height: 250px;
+
+    margin-left: 1%;
+    margin-right: 1%;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    overflow: hidden;
+}
+
+
+#block-4 {
+    float: left;
+    width: 23%;
+    height: 250px;
+    
+    margin-left: 1%;
+    margin-right: 1%;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    overflow: hidden;
+}
+.floated {
+    float: right;
+    width: 100px;
+}
+
+
+
+#block-1:hover {
+    width: 25%;
+    height: 350px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#block-2:hover {
+    width: 25%;
+    height: 350px;
+    margin-left: 0;
+    margin-right: 0;
+}
+#block-3:hover {
+    width: 25%;
+    height: 350px;
+    margin-left: 0;
+    margin-right: 0;
+}
+#block-4:hover {
+    width: 25%;
+    height: 350px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#soba {
+    margin-top: 600px;
+    text-align: center;
+}
